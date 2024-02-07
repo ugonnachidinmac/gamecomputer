@@ -1,0 +1,65 @@
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Ariel;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+}
+
+.container{
+    border: 2px solid rgb(220, 181, 26);
+    padding: 25px;
+    box-shadow: 10px 10px 5px grey;
+}
+h1{
+    color: white;
+    font-family: Ariel;
+    font-weight: bold;
+    font-size: 45px; 
+}
+
+.title{
+    color: white;
+    font-family: Ariel;
+    font-weight: bold;
+    font-size: 30px; 
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.move-button{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.score{
+    margin-top: 70px;
+}
+
+.reset-score-button,
+.auto-play-button{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 13px;
+    margin-right: 10px;
+    cursor: pointer;
+}
